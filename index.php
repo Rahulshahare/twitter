@@ -22,13 +22,16 @@
         .m-t-30{
             margin-top: 30px;
         }
+        hr{
+            border-top: 1px solid #fff;
+        }
     </style>
   </head>
   <body>
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center .m-t-30">
-               
+                        <img src="images/Twitter_Logo_Blue.svg" width="20%"/>
                         <h1 class="color">Login to Twitter</h1><br/><br/>
                         <form>
                         <div class="form-group">
@@ -44,6 +47,8 @@
                         </form>
                         <br/><br/>
                         <p><a href="#">Forgot Password?</a> | <a href="#">SignUp for twitter</a> </p>
+                        <br/><br/><br/><br/><hr/>
+                        <p>About | Privacy | Terms and Condition | Twitter</p>
                    
             </div>
         </div>
