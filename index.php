@@ -19,22 +19,25 @@
             background:#09f;
         }
         .color{color:#09f;}
+        .m-t-30{
+            margin-top: 30px;
+        }
     </style>
   </head>
   <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="col-md-6 col-md-offset-3 text-center .m-t-30">
                
                         <h1 class="color">Login to Twitter</h1><br/><br/>
                         <form>
                         <div class="form-group">
                             
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Your Email" autocomplete="off">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Your Email" autocomplete="off" required>
                         </div>
                         <div class="form-group">
                             
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password" autocomplete="off">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password" autocomplete="off" required>
                         </div>
                        
                         <button type="submit" class="btn btn-primary btn-block">Login</button>
